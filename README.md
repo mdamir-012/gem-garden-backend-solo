@@ -4,3 +4,5 @@ Authentication
 
 user/signup
 user/login
+
+user Details

@@ -11,7 +11,8 @@ const productSchema= mongoose.Schema({
     img3: {type:String,required:true},
     img4: {type:String,required:true},
     img5: {type:String,required:true},
-    category:{type:String,required:true,enum:["Rings","Earrings","Necklaces"]}
+    category:{type:String,required:true,enum:["Rings","Earrings","Necklaces"]},
+    userId: {type:String, required:true}
 
 })
 

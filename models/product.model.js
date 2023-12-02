@@ -12,7 +12,6 @@ const productSchema= mongoose.Schema({
     img4: {type:String,required:true},
     img5: {type:String,required:true},
     category:{type:String,required:true,enum:["Rings","Earrings","Necklaces"]},
-    userId: {type:String, required:true}
 
 })
 

@@ -3,6 +3,21 @@ const { productModel } = require("../models/product.model");
 
 const productsController = express.Router();
 
+// get all products data using get method
+productsController.get("/read", async(req,res)=>{
+  try{
+    const products= await productModel.find();
+    res.status(200).json({status:"all products",data:products})
+
+  }
+  catch(err){
+    console.log(err)
+    res.send(err)
+  }
+ 
+})
+
+
 
 // Getting data by category
 productsController.get("/:category", async (req, res) => {
@@ -111,6 +126,8 @@ productsController.get("/", async (req, res) => {
   }
 
 });
+
+
 
 
 

@@ -20,11 +20,12 @@ url/product/Necklaces
 
 
 <h2>Search Functionality</h2>
-You can search anything with this url and query Search is not case sensitive
-url/product?q=pandora
+You can search anything with this url <br/>
+<h3>url/product?q=pandora</h3>
 
 <h2>Pagination</h2>
-Example for Pagination
-url/product?page=1&limit=10
+Example for Pagination <br/>
+<h3>url/product?page=1&limit=10</h3>
+
 
 
